@@ -137,11 +137,12 @@ body{
         left: 21px;
     }
 
-    .banner-img-fan {
-        width: 159px;
+    
+        .banner-img-fan {
+        width: 100px;
         position: absolute;
-        top: 12px;
-        right: 67px;
+        top: 35px;
+        right: 80px;
     }
     
 }
