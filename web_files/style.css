@@ -78,11 +78,53 @@ body{
 .menu li a{
     display: none;
 }
+
+
+/*slid sow*/
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+.img-s {
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+}
+/*
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}*/
+
+
 @media (max-width: 320px){
 
-    .hedder-name{
-
-    }
 
     .banner-img{
         width: 110px;
